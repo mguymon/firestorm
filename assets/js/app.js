@@ -1,5 +1,5 @@
 require("../css/app.scss");
-import "../../deps/phoenix_html/priv/static/phoenix_html";
+import "/firestorm-deps/phoenix_html/priv/static/phoenix_html";
 
 // == POLYFILLS ==
 // polyfill es6 promises

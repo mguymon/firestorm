@@ -32,9 +32,9 @@ config :ex_admin,
 
 # Path prefixes from which to serve web assets (i.e. webpack dev mode path)
 config :firestorm_web,
-  js_path_prefix: "http://localhost:8081",
-  css_path_prefix: "http://localhost:8081",
-  image_path_prefix: "http://localhost:8081/static"
+  js_path_prefix: "http://localhost:4000",
+  css_path_prefix: "http://localhost:4000",
+  image_path_prefix: "http://localhost:4000"
 
 # Configures the endpoint
 config :firestorm_web, FirestormWeb.Web.Endpoint,

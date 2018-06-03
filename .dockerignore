@@ -1,0 +1,11 @@
+/Dockerfile
+/docker-compose.yml
+/.git
+/node_modules
+/.env
+/erl_crash.dump
+/.docker
+/.dockerignore
+/.gitignore
+/deps
+/_build

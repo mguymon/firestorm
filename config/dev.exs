@@ -9,20 +9,7 @@ config :firestorm_web, FirestormWeb.Web.Endpoint,
   http: [port: 4000],
   debug_errors: true,
   code_reloader: true,
-  check_origin: false,
-  watchers: [
-    node: [
-      "node_modules/.bin/webpack-dev-server",
-      "--inline",
-      "--hot",
-      "--stdin",
-      "--host", "localhost",
-      "--port", "8081",
-      "--public", "localhost:8081",
-      "--config", "webpack.config.js",
-      cd: Path.expand("../assets", __DIR__)
-    ]
-  ]
+  check_origin: false
 
 # ## SSL Support
 #

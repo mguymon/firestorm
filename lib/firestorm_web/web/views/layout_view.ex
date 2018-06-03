@@ -78,11 +78,11 @@ defmodule FirestormWeb.Web.LayoutView do
 
   def js_script_tag do
     "<script src=\"" <> Application.get_env(:firestorm_web, :js_path_prefix)
-      <> "/js/app.js\"></script>"
+      <> "/js/bundle.js\"></script>"
   end
 
   def css_link_tag do
     "<link rel=\"stylesheet\" type=\"text/css\" href=\""
-      <> Application.get_env(:firestorm_web, :css_path_prefix) <> "/css/app.css\" />"
+      <> Application.get_env(:firestorm_web, :js_path_prefix) <> "/js/main.css\" />"
   end
 end

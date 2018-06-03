@@ -1,0 +1,47 @@
+{
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "webpack": "webpack --optimize-minimize --config webpack.config.js",
+    "webpack-watch": "webpack --watch --config webpack.config.js"
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.0",
+    "http-client": "^4.3.1",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.17.1",
+    "jquery": "^3.2.1",
+    "phoenix": "file:/firestorm-deps/phoenix",
+    "phoenix_html": "file:/firestorm-deps/phoenix_html",
+    "prismjs": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel-brunch": "6.1.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "brunch": "2.10.12",
+    "sass-brunch": "^2.10.4",
+    "node-sass": "^4.8.3",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "sass-loader": "^6.0.7",
+    "exports-loader": "^0.7.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "file-loader": "^1.1.11",
+    "imports-loader": "^0.8.0",
+    "import-glob-loader": "^1.1.0",
+    "normalize-css": "^2.3.1",
+    "normalize-scss": "^6.0.0",
+    "purecss": "^0.6.2",
+    "typeplate-starter-kit": "^3.0.2",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-hot-client": "^4.0.1",
+    "mini-css-extract-plugin": "^0.4.0",
+    "copy-webpack-plugin": "^4.5.1"
+  }
+}
