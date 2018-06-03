@@ -63,7 +63,7 @@ defmodule FirestormWeb.Mixfile do
       {:ex_admin, github: "smpallen99/ex_admin"},
 
       # TEST DEPENDENCIES
-      {:wallaby, "~> 0.17.0", only: [:test]},
+      {:wallaby, "~> 0.19.2", only: [:test]},
       {:credo, "~> 0.8", only: [:dev, :test], runtime: false},
       {:dogma, "~> 0.1", only: [:dev]},
 

@@ -19,6 +19,12 @@ config :firestorm_web, FirestormWeb.Repo,
   hostname: System.get_env("POSTGRES_HOST") || "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
+config :firestorm_web, :aws,
+  access_key_id: "access_key_id",
+  secret_access_key: "secret_access_key",
+  bucket: "bucket",
+  region: "region"
+
 config :firestorm_web, sql_sandbox: true
 
 config :firestorm_web, FirestormWeb.Mailer,
@@ -26,7 +32,7 @@ config :firestorm_web, FirestormWeb.Mailer,
 
 config :bamboo, :refute_timeout, 10
 
-config :wallaby, screenshot_on_failure: true
+config :wallaby, screenshot_on_failure: true, phantomjs: "/firestorm-node_modules/phantomjs-prebuilt/bin/phantomjs"
 
 config :comeonin, :bcrypt_log_rounds, 4
 config :comeonin, :pbkdf2_rounds, 1

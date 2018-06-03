@@ -42,6 +42,7 @@
     "webpack-dev-server": "^3.1.4",
     "webpack-hot-client": "^4.0.1",
     "mini-css-extract-plugin": "^0.4.0",
-    "copy-webpack-plugin": "^4.5.1"
+    "copy-webpack-plugin": "^4.5.1",
+    "phantomjs-prebuilt": "^2.1.16"
   }
 }
