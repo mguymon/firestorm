@@ -1,4 +1,4 @@
 <div class="navigation-logo">
-  <img alt="Firestorm logo" src="<%= image_path("firestorm-logo.png") %>" />
+  <img alt="Firestorm logo" src="<%= image_path("BHIA_LOGO_LRG.png") %>" />
   <span>Firestorm</span>
 </div>
