@@ -17,7 +17,7 @@ defmodule FirestormWeb.Forums.User do
     field :api_token, :string
 
     has_many :posts, Post
-    has_many :role_memberships, RoleMembership
+    has_many :role_memberships, RoleMembership, on_delete: :delete_all
     many_to_many :roles, Role, join_through: RoleMembership, on_replace: :delete
 
     timestamps()
